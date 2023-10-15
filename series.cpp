@@ -442,7 +442,6 @@ void series_35(double** arr, int rows, int columns) {
             if (arr[i][j] == 0) {
                 break;
             }
-        }
         std::cout << "В [" << i << "] наборе элементов: " << counter << std::endl;
     }
     std::cout << "Всего эл-ов: " << avg_counter;
