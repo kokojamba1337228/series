@@ -263,11 +263,8 @@ double series_23(double* arr, int size) {
     {
         if (!((arr[i] > arr[i - 1] && arr[i] > arr[i + 1]) ||
             (arr[i] < arr[i - 1] && arr[i] < arr[i + 1]))) {
-            return i;
         }
     }
-    return 0;
-}
 
 double series_24(int* arr, int size) {
     double result = 0;
